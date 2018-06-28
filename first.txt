@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class AddDigits{
+
+ 	public static boolean validateInput(int number1, int number2) //this method takes two numbers as input and returns true if the sum of the digits is the same else returns false
+
+ 	 {
+		boolean result = false; 	// initialize variable false initially 
+		if(number1 != 0 || number 2 != 0 ) // except condition if one of the number is 0 because our logic to check length of number fail on input 0 because we cannot take 0 
